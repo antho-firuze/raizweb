@@ -1,0 +1,468 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "c4954718-d445-4c08-800c-a6f372a33969",
+            "name": "Raiz Invest Indonesia",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "updatedAt": "2024-02-26T00:55:04.000Z",
+            "uid": "2962794-c4954718-d445-4c08-800c-a6f372a33969",
+            "createdAt": null,
+            "lastUpdatedBy": null
+        },
+        "item": [
+            {
+                "name": "Market Running Text Search",
+                "id": "8e4514a2-fbbc-4f3c-a815-4c006d915430",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"agent\": \"windows\",\r\n    \"method\": \"market_database.market_runningtext.search\",\r\n    \"appcode\": \"RaizIndonesia\",\r\n    \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\",\r\n    \"id\": 78910,\r\n    \"params\": {\r\n        \"page_no\": 1,\r\n        \"limit\": 0\r\n    }\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmarket2-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmarket2-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-8e4514a2-fbbc-4f3c-a815-4c006d915430"
+            },
+            {
+                "name": "Market Company Search",
+                "id": "dcaf5ad1-47f5-4ee1-b4f4-e59f8b0b3775",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\"agent\": \"windows\", \"method\": \"market_company.market_company.search\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"params\": {\"page_no\": 1, \"limit\": 0, \"company_id\": [ 2, 3, 4, 5, 6, 7, 8, 9]}}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmarket2-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmarket2-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-dcaf5ad1-47f5-4ee1-b4f4-e59f8b0b3775"
+            },
+            {
+                "name": "Market Company Load",
+                "id": "b4b5a12b-9bb9-452f-aaa6-701971f0b709",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\"agent\": \"windows\", \"method\": \"market_company.market_company.load\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"params\": {\"page_no\": 1, \"limit\": 0,\"company_id\":2}}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmarket2-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmarket2-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-b4b5a12b-9bb9-452f-aaa6-701971f0b709"
+            },
+            {
+                "name": "Master Risk Level Search",
+                "id": "f09196b5-00f4-4040-a47d-ff3c5b03138a",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\"agent\": \"windows\", \"method\": \"simpi_master.simpi_riskclient.search\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"token_id\": \"ODI1NDM5ODY2MTg5OWU3MzAxNjJmOWNmOThjZjE0YjhmMDViMzZjNmYzODZkMzIyYTcyOGNlNDI3ZWEyZjNlZA\", \"params\": {\"page_no\": 1, \"limit\": 0}}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmaster-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmaster-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-f09196b5-00f4-4040-a47d-ff3c5b03138a"
+            },
+            {
+                "name": "Master Risk Questioner Search",
+                "id": "dc609170-5687-477f-afbb-5ada85e3849e",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\"agent\": \"windows\", \"method\": \"simpi_master.simpi_riskquestioner.search\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"token_id\": \"OTU1YjkwMTA2MjE2N2VmNDAzMzNlNDczNWUyMzI3ZDgwM2VkZDdkMTU1YThmNGJjZGIwZjRhMDA2MWU5Y2I4NA\", \"params\": {\"page_no\": 1, \"limit\": 0, \"type_id\": \"1\"}}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmaster-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmaster-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-dc609170-5687-477f-afbb-5ada85e3849e"
+            },
+            {
+                "name": "Master Risk Questioner Answer Search",
+                "id": "4a200a29-cf49-43d4-b88c-f9826b111b10",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\"agent\": \"windows\", \"method\": \"simpi_master.simpi_riskquestioner_answer.search\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"token_id\": \"OTU1YjkwMTA2MjE2N2VmNDAzMzNlNDczNWUyMzI3ZDgwM2VkZDdkMTU1YThmNGJjZGIwZjRhMDA2MWU5Y2I4NA\", \"params\": {\"page_no\": 1, \"limit\": 0, \"type_id\": \"0\"}}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmaster-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmaster-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-4a200a29-cf49-43d4-b88c-f9826b111b10"
+            },
+            {
+                "name": "MOBC Product Search Product",
+                "id": "edcbfe9a-a2f5-4dd9-8667-bae3e9b3f42d",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\"agent\": \"windows\", \"method\": \"mobc_product.search_product\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"params\": {\"page_no\": 1, \"limit\": 0}}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmobc-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmobc-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-edcbfe9a-a2f5-4dd9-8667-bae3e9b3f42d"
+            },
+            {
+                "name": "MOBC Product Search Portfolio",
+                "id": "77966e4b-c687-4f98-85f1-ee5f6bafb0e5",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\"agent\": \"windows\", \"method\": \"mobc_product.search_portfolio\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"params\": {\"page_no\": 1, \"limit\": 0, \"portfolio_id\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]}}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmobc-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmobc-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-77966e4b-c687-4f98-85f1-ee5f6bafb0e5"
+            },
+            {
+                "name": "MOBC Product Search Codeset",
+                "id": "1ae89b2e-2631-4f72-b2f2-2ff709f58e52",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\"agent\": \"windows\", \"method\": \"mobc_product.search_codeset\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"params\": {\"page_no\": 1, \"limit\": 0, \"field_id\": [3, 6, 10, 14, 15, 16], \"portfolio_id\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]}}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmobc-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmobc-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-1ae89b2e-2631-4f72-b2f2-2ff709f58e52"
+            },
+            {
+                "name": "MOBC Product Search Account",
+                "id": "cb6d36f5-bb6f-43cc-acbe-1bfd9ca8aa63",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\"agent\": \"windows\", \"method\": \"mobc_product.search_account\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"params\": {\"page_no\": 1, \"limit\": 0, \"portfolio_id\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]}}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://stagingmobc-api.raiz-indonesia.com",
+                        "protocol": "https",
+                        "host": [
+                            "stagingmobc-api",
+                            "raiz-indonesia",
+                            "com"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "2962794-cb6d36f5-bb6f-43cc-acbe-1bfd9ca8aa63"
+            },
+            {
+                "name": "MOBC Product Last N…raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://stagingmarket2-api.raiz-indonesia.com",
+            "protocol": "https",
+            "host": [
+                "stagingmarket2-api",
+                "raiz-indonesia",
+                "com"
+            ]
+        }
+    },
+    "response": [],
+    "uid": "2962794-1d6dd34e-33a6-4a10-b513-9db8d460c0f7"
+},
+{
+    "name": "Parameter Religion",
+    "id": "4e7555e3-fb36-4feb-aac9-e3375cab6a55",
+    "protocolProfileBehavior": {
+        "disableBodyPruning": true
+    },
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\"agent\": \"windows\", \"method\": \"parameter_client.parameter_religion.search\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910,  \"params\": {\"page_no\": 1, \"limit\": 0}}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://stagingmarket2-api.raiz-indonesia.com",
+            "protocol": "https",
+            "host": [
+                "stagingmarket2-api",
+                "raiz-indonesia",
+                "com"
+            ]
+        }
+    },
+    "response": [],
+    "uid": "2962794-4e7555e3-fb36-4feb-aac9-e3375cab6a55"
+},
+{
+    "name": "Parameter Marital Status",
+    "id": "948f3477-9fa6-4019-b4f8-932a7a6a4b84",
+    "protocolProfileBehavior": {
+        "disableBodyPruning": true
+    },
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\"agent\": \"windows\", \"method\": \"parameter_client.parameter_marital_status.search\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910,  \"params\": {\"page_no\": 1, \"limit\": 0}}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://stagingmarket2-api.raiz-indonesia.com",
+            "protocol": "https",
+            "host": [
+                "stagingmarket2-api",
+                "raiz-indonesia",
+                "com"
+            ]
+        }
+    },
+    "response": [],
+    "uid": "2962794-948f3477-9fa6-4019-b4f8-932a7a6a4b84"
+},
+{
+    "name": "Parameter Business Activity",
+    "id": "d6df4292-8c17-4cbe-b278-0375f2bfba0c",
+    "protocolProfileBehavior": {
+        "disableBodyPruning": true
+    },
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\"agent\": \"windows\", \"method\": \"parameter_client.parameter_business_activity.search\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910,  \"params\": {\"page_no\": 1, \"limit\": 0}}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://stagingmarket2-api.raiz-indonesia.com",
+            "protocol": "https",
+            "host": [
+                "stagingmarket2-api",
+                "raiz-indonesia",
+                "com"
+            ]
+        }
+    },
+    "response": [],
+    "uid": "2962794-d6df4292-8c17-4cbe-b278-0375f2bfba0c"
+},
+{
+    "name": "Parameter Asset Type",
+    "id": "6fbb9c15-8d2c-4ff3-a67d-ce076e084c2a",
+    "protocolProfileBehavior": {
+        "disableBodyPruning": true
+    },
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\"agent\": \"windows\", \"method\": \"parameter_portfolio.parameter_asset_type.search\", \"appcode\": \"RaizIndonesia\", \"appkey\": \"lodufeposozahukaxekezirimebomerusekahegihojobehezomunudededewofabijenodofalilifoditupicebikuhirabolilopixupuxawajexejagahejexifanotirikikicirogesukowotanoxubetuvijurolutoxurohinenahulonenigomeheguliropibumawobodedanesixipabomagacobubojirulewuwuvituxoguxas\", \"id\": 78910, \"params\": {\"page_no\": 1, \"limit\": 0}}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://stagingmarket2-api.raiz-indonesia.com",
+            "protocol": "https",
+            "host": [
+                "stagingmarket2-api",
+                "raiz-indonesia",
+                "com"
+            ]
+        }
+    },
+    "response": [],
+    "uid": "2962794-6fbb9c15-8d2c-4ff3-a67d-ce076e084c2a"
+}
+]
+}
+}
